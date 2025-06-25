@@ -47,7 +47,7 @@ flowchart TD
     A[Inicio] --> B[i = 1]
     B --> C{¿i < 1000?}
     C -- Sí --> D{¿i es impar?}
-    D -- Sí --> E[Imprimir "impares i, pares i+1"]
+    D -- Sí --> E[Imprimir impares i, pares i+1]
     D -- No --> F
     E --> F[i = i + 1]
     F --> C
@@ -140,7 +140,7 @@ config:
 flowchart TD
     A[Inicio] --> B[Leer n]
     B --> C{¿n < 0?}
-    C -- Sí --> D[Imprimir "no es natural"] --> E[Fin]
+    C -- Sí --> D[Imprimir no es natural] --> E[Fin]
     C -- No --> F[exp = 2^n]
     F --> G[Imprimir resultado]
     G --> H[Fin]
